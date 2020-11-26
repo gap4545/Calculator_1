@@ -4,8 +4,12 @@ operation = int(input("""Input Operation.
 3. Divide
 4. Multiply
 5. Exponent
+6. Quit
 """))
 #Gets Operation from user, bitch
+
+if operation == 6 :
+    quit()
 
 number1 = int(input("Input first number:")) #Needed int() before input()
 number2 = int(input("Input second number:"))
